@@ -1,0 +1,27 @@
+.logo {
+    
+    font-size: 26px;
+    text-decoration: none;
+    font-family: $secondary-font;
+    font-weight:700;
+    font-style: normal;
+    display: block;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    
+
+        &__header{
+            margin-right: 93px;    
+            color: $secondary-font-color;
+        }
+        &__footer{
+            margin-bottom: 20px;
+            color: $white-font-color;
+    }
+    
+        &__decorated_blue{
+            color: $akcent-color;
+        }
+
+}
+

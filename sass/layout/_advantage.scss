@@ -1,0 +1,45 @@
+.advantage{
+    display: flex;     
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+
+}
+.advantage-box {
+    margin-top: 30px;
+    margin-left: 30px;
+    flex-basis: calc((100% - 120px) / 4 );
+
+}
+.faetures-icon-container{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+.list-of-benefits{
+    color: $secondary-font-color;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+    width: 270px;
+}
+.description {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $main-font-color;
+    width: 270px;
+
+}

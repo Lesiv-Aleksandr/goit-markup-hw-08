@@ -1,0 +1,104 @@
+
+.hiro{
+
+    height: 400px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)), 
+    url('../images/hero-bg/mobile/bg-hero-mobile.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: $background-footer;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container-hiro{
+  text-align: center;
+  padding: 118px 0;
+  
+      &__title {
+          font-style: normal;
+          font-weight: 900;
+          font-size: 26px;
+          line-height: 1.61;
+
+          
+          letter-spacing: 0.06em;
+          text-transform: uppercase;
+          text-align: center;
+          color: $white-font-color;
+      
+          max-width: 360px;
+          
+          margin-top: 0;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 30px;
+  }
+}
+
+
+
+
+@media screen and (min-device-pixel-ratio: 2) and (min-widht: 280px),
+screen and (min-resolution: 192dpi) and (min-widht: 280px),
+screen and (min-resolution: 2dppx) and (min-widht: 280px){
+    .hiro{
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/hero-bg/mobile/bg-hero-mobile@2x.jpg');
+    }
+  }
+
+@media screen and (min-widht: 768px){
+    .hiro{ 
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/hero-bg/tablet/bg-hero-tablet.jpg');
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-widht: 768px),
+screen and (min-resolution: 192dpi) and (min-widht: 768px),
+screen and (min-resolution: 2dppx) and (min-widht: 768px) {
+    .hiro{
+      background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/hero-bg/tablet/bg-hero-tablet@2x.jpg');
+
+    }
+  }
+
+
+@media screen and (min-widht: 1200px) {
+  .hiro{
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../images/hero-bg/desktop/bg-hero-desktop.jpg');
+  } 
+  .container-hiro{
+    padding: 200px 0;
+  }
+  
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-widht: 1200px),
+screen and (min-resolution: 192dpi) and (min-widht: 1200px),
+screen and (min-resolution: 2dppx) and (min-widht: 1200px) {
+    .hiro{
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../images/hero-bg/desktop/bg-hero-desktop@2x.jpg');
+    }
+   
+  }
+
+// .hiro{
+//     background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/background-hiro.jpg);
+//     max-width: 1600px;
+//     min-height: 600px;
+//     background-position: center;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     background-color: $background-footer;
+//     margin-top: 0;
+//     margin-left: auto;
+//     margin-right: auto;
+// }
+
+
+
+

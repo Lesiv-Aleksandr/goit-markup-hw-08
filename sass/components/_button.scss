@@ -1,0 +1,79 @@
+.order-service{
+    color: $white-font-color;
+    background-color:$background-button;
+    font-size: 16px;
+    font-weight: 700;
+    width: 200px;
+    height: 50px;
+    text-align:center;
+    cursor: pointer;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    padding: 10px 32px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+            &:hover{
+                background-color: $background-button-hover;
+    }
+
+}
+
+.button-subscribe{
+    width: 200px;
+    height: 50px;
+    background-color: $background-button;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    padding: 10px 0;
+    color: $white-font-color;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
+        &:hover{
+             background-color: $background-button-hover;
+} 
+   
+}
+.icon-send{
+    margin-left: 10px;
+}
+
+.modal-form-button{
+    width: 200px;
+    height: 50px;
+    background: $background-button;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.67;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    padding: 10px 0;
+    border: none;
+    color: #FFFFFF;
+    margin: 0 auto;  
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+        &:focus,
+        &:hover{
+                background: $background-button-hover;
+   
+        }
+}
