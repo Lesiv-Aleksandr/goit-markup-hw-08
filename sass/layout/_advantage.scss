@@ -1,45 +1,88 @@
-.advantage{
-    display: flex;     
-    flex-wrap: wrap;
-    margin-top: -30px;
-    margin-left: -30px;
 
-}
-.advantage-box {
-    margin-top: 30px;
-    margin-left: 30px;
-    flex-basis: calc((100% - 120px) / 4 );
-
-}
 .faetures-icon-container{
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 120px;
-    background-color: #F5F4FA;
-    border-radius: 4px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+        background-color: #F5F4FA;
+        border-radius: 4px;
 }
+
 .list-of-benefits{
-    color: $secondary-font-color;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+        color: $secondary-font-color;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-align: center;
+    
+        margin-bottom: 10px;
+        width: 270px;
+        margin: 0 auto;
 
-    margin-bottom: 10px;
-    width: 270px;
-}
-.description {
+    }
+    .description {
 
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: $main-font-color;
-    width: 270px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.71;
+            letter-spacing: 0.03em;
+            color: $main-font-color;
+            width: 100%;
+            margin-top: 10px;        
+        }
 
-}
+        .advantage-box:not(:last-child) {
+            margin-bottom: 30px;
+        }
+
+
+// .advantage{
+//     display: flex;     
+//     flex-wrap: wrap;
+//     margin-top: -30px;
+//     margin-left: -30px;
+
+// }
+// .advantage-box {
+//     margin-top: 30px;
+//     margin-left: 30px;
+//     flex-basis: calc((100% - 120px) / 4 );
+
+// }
+// .faetures-icon-container{
+//     margin-bottom: 30px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     height: 120px;
+//     background-color: #F5F4FA;
+//     border-radius: 4px;
+// }
+// .list-of-benefits{
+//     color: $secondary-font-color;
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 14px;
+//     line-height: 1.2;
+//     letter-spacing: 0.03em;
+//     text-transform: uppercase;
+
+//     margin-bottom: 10px;
+//     width: 270px;
+// }
+// .description {
+
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 14px;
+//     line-height: 1.71;
+//     letter-spacing: 0.03em;
+//     color: $main-font-color;
+//     width: 270px;
+
+// }
