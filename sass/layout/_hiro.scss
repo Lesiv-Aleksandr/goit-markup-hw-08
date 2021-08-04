@@ -43,23 +43,23 @@
 
 
 
-@media screen and (min-device-pixel-ratio: 2) and (min-widht: 280px),
-screen and (min-resolution: 192dpi) and (min-widht: 280px),
-screen and (min-resolution: 2dppx) and (min-widht: 280px){
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
+screen and (min-resolution: 192dpi) and (min-width: 280px),
+screen and (min-resolution: 2dppx) and (min-width: 280px){
     .hiro{
       background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/bg-hero-mobile@2x.jpg');
     }
   }
 
-@media screen and (min-widht: 768px){
+@media screen and (min-width: 768px){
     .hiro{ 
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/bg-hero-tablet.jpg');
     }
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-widht: 768px),
-screen and (min-resolution: 192dpi) and (min-widht: 768px),
-screen and (min-resolution: 2dppx) and (min-widht: 768px) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .hiro{
       background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/bg-hero-tablet@2x.jpg');
 

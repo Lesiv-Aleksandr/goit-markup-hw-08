@@ -1,5 +1,8 @@
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
     .menu{
+        display: none;
+    }
+    .contacts{
         display: none;
     }
 }
@@ -19,9 +22,7 @@
 
 }
 
-.contacts{
-    display: none;
-}
+
 .container-header{
     display: flex;
     justify-content: space-between;
