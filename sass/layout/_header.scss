@@ -5,6 +5,16 @@
 
 .header{
     padding: 10px 0px;
+    border-bottom: 1px solid #ECECEC;
+    background-color: $white-font-color;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    left: 0;
+
+
+
 }
 
 .contacts{
@@ -14,6 +24,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 
@@ -35,19 +46,17 @@
 
     &__icon{
         fill:#000000;
-        
+
         
     }
 
     
     &__icon:hover{
         fill: $akcent-color;
-        
+
     }
 
-    &_icon-shadow:hover{
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
+   
 }
 
 .mobile-menu{
