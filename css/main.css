@@ -227,6 +227,11 @@ body {
   background-color: #2196F3;
 }
 
+@media screen and (min-width: 768px) {
+  .burger-btn {
+    display: none;
+  }
+}
 @media screen and (max-width: 767px) {
   .menu {
     display: none;
@@ -407,11 +412,6 @@ body {
   color: #2196F3;
 }
 
-@media screen and (min-widht: 768px) {
-  .burger-btn {
-    display: none;
-  }
-}
 .hiro {
   height: 400px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bg-hero-mobile.jpg");
