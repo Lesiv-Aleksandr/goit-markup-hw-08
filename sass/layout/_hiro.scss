@@ -4,7 +4,7 @@
     height: 400px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)), 
-    url('../images/hero-bg/mobile/bg-hero-mobile.jpg');
+    url('../images/bg-hero-mobile.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -47,13 +47,13 @@
 screen and (min-resolution: 192dpi) and (min-widht: 280px),
 screen and (min-resolution: 2dppx) and (min-widht: 280px){
     .hiro{
-      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/hero-bg/mobile/bg-hero-mobile@2x.jpg');
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/bg-hero-mobile@2x.jpg');
     }
   }
 
 @media screen and (min-widht: 768px){
     .hiro{ 
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/hero-bg/tablet/bg-hero-tablet.jpg');
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/bg-hero-tablet.jpg');
     }
 }
 
@@ -61,7 +61,7 @@ screen and (min-resolution: 2dppx) and (min-widht: 280px){
 screen and (min-resolution: 192dpi) and (min-widht: 768px),
 screen and (min-resolution: 2dppx) and (min-widht: 768px) {
     .hiro{
-      background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/hero-bg/tablet/bg-hero-tablet@2x.jpg');
+      background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/bg-hero-tablet@2x.jpg');
 
     }
   }
@@ -69,7 +69,7 @@ screen and (min-resolution: 2dppx) and (min-widht: 768px) {
 
 @media screen and (min-widht: 1200px) {
   .hiro{
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../images/hero-bg/desktop/bg-hero-desktop.jpg');
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../images/bg-hero-desktop.jpg');
   } 
   .container-hiro{
     padding: 200px 0;
@@ -81,7 +81,7 @@ screen and (min-resolution: 2dppx) and (min-widht: 768px) {
 screen and (min-resolution: 192dpi) and (min-widht: 1200px),
 screen and (min-resolution: 2dppx) and (min-widht: 1200px) {
     .hiro{
-      background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../images/hero-bg/desktop/bg-hero-desktop@2x.jpg');
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../images/bg-hero-desktop@2x.jpg');
     }
    
   }
