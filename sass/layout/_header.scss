@@ -1,7 +1,10 @@
 
-.menu{
-    display: none;
+@media screen and (max-width: 767px){
+    .menu{
+        display: none;
+    }
 }
+
 
 .header{
     padding: 10px 0px;
@@ -216,6 +219,7 @@
    .burger-btn{
        display: none;
    }
+}
 //     .menu {
 //         display: flex;
 //         align-items: center;
@@ -294,4 +298,3 @@
     
 //     fill: $main-font-color;
 // }
-
