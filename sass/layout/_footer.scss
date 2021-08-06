@@ -58,7 +58,27 @@
     margin: 60px 0;
 }
 
+@media screen and (min-width:768px) {
+    
 
+.contacts-footer__contacts-social-list {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 60px;
+        
+
+        }
+        .footer-right-container{
+           margin: 0 89px 0 0;
+        }
+        
+        .footer-left-container{
+            margin-left: 76px;
+        }
+
+        
+    }
 
 
 

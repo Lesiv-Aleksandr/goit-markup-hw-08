@@ -27,7 +27,7 @@ img{
      padding-left: 0px;
      margin-top: 0px;
      margin-bottom: 0px;
-     align-items: center;
+     
 }
 .section {
       padding-top: 60px;
@@ -42,7 +42,12 @@ body{
     background-color: #FFFFFF;
     // height: 100vh;
 }
-// .section {
-//   padding-top: 94px;
-//   padding-bottom: 94px;
-// }
+
+@media screen and (min-width:1200px){
+  .section {
+      padding-top: 94px;
+      padding-bottom: 94px;
+    }
+}
+
+
