@@ -70,14 +70,15 @@
                 </ul>
         </div>
         <div class="mobile-menu" data-menu>
-            <div class="container mobile-menu__container">
-                    <button class="mobile-menu__close-btn mobile-menu__close-btn-position " data-menu-close>
-                        <svg class="mobile-menu__close-icon">
-                            <use href="./images/sprite.svg#close">
-                        
-                            </use>
-                        </svg>
-                    </button>   
+            <button class="mobile-menu__close-btn mobile-menu__close-btn-position " data-menu-close>
+                <svg class="mobile-menu__close-icon">
+                    <use href="./images/sprite.svg#close">
+                
+                    </use>
+                </svg>
+            </button>   
+            <div class="mobile-menu__container">
+                    
                     <ul class="nav-list list">
                         <li class="nav-list__item">
                             <a href="./index.html" class=" link nav-list__link  nav-list_link-current-underline">Студия</a>
@@ -90,52 +91,52 @@
                         </li>
                         
                     </ul> 
-
+                    <div class="contacts-mobile-menu">
+                        <ul class="list contacts-mobile-menu__list">  
+                            <li>
+                                <a href="tel:+380961111111" class="link contacts-mobile-menu__item-tel">+38 096 111 11 11</a>
+                            </li>
+                            <li class="contacts-mobile-menu__item">
+                                <a href="mailto:info@devstudio.com" class="link contacts-mobile-menu__item-email">info@devstudio.com</a>
+                            </li>
+                        </ul>    
+                    
+                        <div class="social-network">
+                            <ul class="list  social-network__list">
+                                <li class="social-network__list-item social-network_list-item-padding-none">
+                                    <a href="https://www.instagram.com" class="link social-network__list-link">Instagram</a>
+                                </li>
+                                <li class="social-network__list-item">
+                                    <a href="https://twitter.com" class="link social-network__list-link">Twitter</a>
+                                </li>
+                                <li class="social-network__list-item">
+                                    <a href="https://www.facebook.com/" class="link social-network__list-link">Facebook</a>
+                                </li>
+                                <li class="social-network__list-item">
+                                    <a href="https://www.linkedin.com/" class="link social-network__list-link">LinkedIn</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>        
+        
+                </div>
             </div>
-            <div class="container contacts-mobile-menu">
-                <ul class="list contacts-mobile-menu__list">  
-                    <li>
-                        <a href="tel:+380961111111" class="link contacts-mobile-menu__item-tel">+38 096 111 11 11</a>
-                    </li>
-                    <li class="contacts-mobile-menu__item">
-                        <a href="mailto:info@devstudio.com" class="link contacts-mobile-menu__item-email">info@devstudio.com</a>
-                    </li>
-                </ul>    
-            </div>
-            <div class="container social-network">
-                <ul class="list  social-network__list">
-                    <li class="social-network__list-item social-network_list-item-padding-none">
-                        <a href="https://www.instagram.com" class="link social-network__list-link">Instagram</a>
-                    </li>
-                    <li class="social-network__list-item">
-                        <a href="https://twitter.com" class="link social-network__list-link">Twitter</a>
-                    </li>
-                    <li class="social-network__list-item">
-                        <a href="https://www.facebook.com/" class="link social-network__list-link">Facebook</a>
-                    </li>
-                    <li class="social-network__list-item">
-                        <a href="https://www.linkedin.com/" class="link social-network__list-link">LinkedIn</a>
-                    </li>
-                </ul>
-            </div>
-
-
-        </div>
+            
     </header>
         <main>
-                <section class="hiro">
+                <section class="hero">
 
-                    <div class="container container-hiro">
-                            <h1 class="container-hiro__title">Эффективные решения для вашего бизнеса</h1>
+                    <div class="container container-hero">
+                            <h1 class="container-hero__title">Эффективные решения для вашего бизнеса</h1>
                             <button type="button" class="order-service" data-modal-open>Заказать услугу</button>
 
                     </div>
                     
                 </section>
             
-            <section class="section">
+            <section class="section  section-advantage">
                 <h2 class="visually-hidden">Преимущество</h2>
-                <div class="container">
+                <div class="container section-advantage__container">
                     <ul class="list advantage">
                         <li class="advantage-box">
                             <div class="faetures-icon-container">
@@ -197,13 +198,7 @@
                                 <picture>
                                     <source media="(min-width: 1200px)" srcset="./images/desk-desktop.webp 1x, ./images/desk-desktop@2x.webp 2x" type="images/webp">
                                     <source media="(min-width: 1200px)" srcset="./images/desk-desktop.jpg 1x, ./images/desk-desktop@2x.jpg 2x">
-                                    
-                                    <source media="(min-width: 768px)" srcset="./images/desk-tablet.webp 1x, ./images/desk-tablet@2x.webp 2x" type="images/webp">
-                                    <source media="(min-width: 768px)" srcset="./images/desk-tablet.jpg 1x, ./images/desk-tablet@2x.jpg 2x">
 
-                                    <source srcset="./images/desk-mobile.webp 1x, ./images/desk-mobile@2x.webp 2x" type="images/webp">
-                                    <source srcset="./images/desk-mobile.jpg 1x, ./images/desk-mobile@2x.jpg 2x">
-                                    
                                     <img src="#" alt="Стол, планшет, лист" >
                                 </picture>
                                 
@@ -215,15 +210,9 @@
                             </li>
                             <li class="works-list-box thumb">
                                 <picture>
-                                    <source media="(min-width: 1200px)" srcset="./images/tabl-desktop.webp 1x, ./images/tabl-desktop@2x.webp 2x" type="images/webp">
-                                    <source media="(min-width: 1200px)" srcset="./images/tabl-desktop.jpg 1x, ./images/tabl-desktop@2x.jpg 2x">
-                                    
-                                    <source media="(min-width: 768px)" srcset="./images/tabl-tablet.webp 1x, ./images/tabl-tablet@2x.webp 2x" type="images/webp">
-                                    <source media="(min-width: 768px)" srcset="./images/tabl-tablet.jpg 1x, ./images/tabl-tablet@2x.jpg 2x">
-
-                                    <source srcset="./images/tabl-mobile.webp 1x, ./images/tabl-mobile@2x.webp 2x" type="images/webp">
-                                    <source srcset="./images/tabl-mobile.jpg 1x, ./images/tabl-mobile@2x.jpg 2x">
-                                    
+                                    <source media="(min-width: 1200px)" srcset="./images/note-desktop.webp 1x, ./images/note-desktop@2x.webp 2x" type="images/webp">
+                                    <source media="(min-width: 1200px)" srcset="./images/note-desktop.jpg 1x, ./images/note-desktop@2x.jpg 2x">
+                                
                                     <img src="#" alt="Планшет , клавтиатура, мышка" >
                                 </picture>
                                 <div class="background-label">
@@ -234,14 +223,8 @@
                             </li>
                             <li class="works-list-box thumb">
                                 <picture>
-                                    <source media="(min-width: 1200px)" srcset="./images/note-desktop.webp 1x, ./images/note-desktop@2x.webp 2x" type="images/webp">
-                                    <source media="(min-width: 1200px)" srcset="./images/note-desktop.jpg 1x, ./images/note-desktop@2x.jpg 2x">
-                                    
-                                    <source media="(min-width: 768px)" srcset="./images/note-tablet.webp 1x, ./images/note-tablet@2x.webp 2x" type="images/webp">
-                                    <source media="(min-width: 768px)" srcset="./images/note-tablet.jpg 1x, ./images/note-tablet@2x.jpg 2x">
-
-                                    <source srcset="./images/note-mobile.webp 1x, ./images/note-mobile@2x.webp 2x" type="images/webp">
-                                    <source srcset="./images/note-mobile.jpg 1x, ./images/note-mobile@2x.jpg 2x">
+                                    <source media="(min-width: 1200px)" srcset="./images/tabl-desktop.webp 1x, ./images/tabl-desktop@2x.webp 2x" type="images/webp">
+                                    <source media="(min-width: 1200px)" srcset="./images/tabl-desktop.jpg 1x, ./images/tabl-desktop@2x.jpg 2x">
                                     
                                     <img src="#" alt="Телефон , ноутбук, женщина" >
                                 </picture>
@@ -265,7 +248,7 @@
                             <li class="developer-card">
                                 <picture>
                                     <source media="(min-width: 1200px)" srcset="./images/demianenko-desktop.webp 1x, ./images/demianenko-desktop@2x.webp 2x" type="images/webp">
-                                    <source media="(min-width: 1200px)" srcset="./imagesdemianenko-desktop.jpg 1x, ./images/demianenko-desktop@2x.jpg 2x">
+                                    <source media="(min-width: 1200px)" srcset="./images/demianenko-desktop.jpg 1x, ./images/demianenko-desktop@2x.jpg 2x">
                                     
                                     <source media="(min-width: 768px)" srcset="./images/demianenko-tablet.webp 1x, ./images/demianenko-tablet@2x.webp 2x" type="images/webp">
                                     <source media="(min-width: 768px)" srcset="./images/demianenko-tablet.jpg 1x, ./images/demianenko-tablet@2x.jpg 2x">

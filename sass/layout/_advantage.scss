@@ -42,7 +42,9 @@
 
 
 @media screen and (min-width:768px){
-                .advantage{
+                
+        
+        .advantage{
 
                         display: flex;     
                         flex-wrap: wrap;
@@ -80,7 +82,9 @@
                 
                 flex-basis: calc((100% - 120px) / 4 ); 
         }
-
+        .section-advantage{
+                padding-bottom: 0;
+        }
 }
 
 // .advantage{
