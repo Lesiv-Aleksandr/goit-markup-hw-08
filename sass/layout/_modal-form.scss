@@ -11,7 +11,7 @@
 }
 .modal{
     position: absolute;
-    width: 450px;
+    width: 370px;
    
     
     left: 50%;
@@ -143,6 +143,7 @@
     color: $main-font-color;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-bottom: 31px;
     
         &::before{
@@ -164,6 +165,13 @@
             background-size: contain;
             border-color: $akcent-color;
         }
+       
+}
+@media screen and (min-width:768px){
+    .modal{
+        width: 450px;
+    }
+   
 }
 
 

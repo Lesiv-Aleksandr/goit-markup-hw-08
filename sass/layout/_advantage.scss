@@ -1,5 +1,5 @@
 
-.faetures-icon-container{
+.advantage__list-item-icon-container{
         margin-bottom: 30px;
         display: flex;
         justify-content: center;
@@ -9,7 +9,7 @@
         border-radius: 4px;
 }
 
-.list-of-benefits{
+.advantage__title{
         color: $secondary-font-color;
         font-style: normal;
         font-weight: 700;
@@ -24,7 +24,7 @@
         margin: 0 auto;
 
     }
-    .description {
+    .advantage__description{
 
             font-style: normal;
             font-weight: 400;
@@ -36,7 +36,7 @@
             margin-top: 10px;        
         }
 
-        .advantage-box:not(:last-child) {
+        .advantage__list-item:not(:last-child) {
             margin-bottom: 30px;
         }
 
@@ -44,7 +44,7 @@
 @media screen and (min-width:768px){
                 
         
-        .advantage{
+        .advantage__list{
 
                         display: flex;     
                         flex-wrap: wrap;
@@ -53,24 +53,24 @@
                        
                 }
 
-                .advantage-box {
+                .advantage__list-item {
 
                         margin-top: 30px;
                         margin-left: 30px;
                         flex-basis: calc((100% - 60px) / 2 );
                 }
                 
-                .list-of-benefits{
+                .advantage__title{
 
                         margin: 0 0 10px ;
                         text-align: left;
                 
                 }
-                .description {
+                .advantage__description{
                         margin-top: 0;
                 }
 
-                .advantage-box:not(:last-child) {
+                .advantage__list-item:not(:last-child) {
                         margin-bottom: 0;
                     }
                 
@@ -78,10 +78,11 @@
 }
 
 @media screen and (min-width:1200px){
-        .advantage-box {
+        .advantage__list-item {
                 
                 flex-basis: calc((100% - 120px) / 4 ); 
         }
+
         .section-advantage{
                 padding-bottom: 0;
         }

@@ -151,9 +151,7 @@
 .nav-list_link-current-underline{
     color: $akcent-color;
 }
-.contacts-mobile-menu{
-        
-}
+
 .contacts-mobile-menu__item-tel{
     font-family: $main-font;
     font-style: normal;
@@ -162,7 +160,11 @@
     line-height: 1.17;
     letter-spacing: 0.02em;
 
-    color: #2196F3;
+    color: #757575;
+
+    &:hover{
+        color: $akcent-color;
+    }
 }
 
 .contacts-mobile-menu__item-email{
@@ -174,20 +176,23 @@
     letter-spacing: 0.02em;
 
     color: #757575;
+
+    &:hover{
+        color: $akcent-color;
+    }
 }
 
 .contacts-mobile-menu__item{
     margin-top: 32px;
 }
-// .social-network{
-//     padding-top: 64px;
-//     padding-left: 40px;
-//     padding-bottom: 48px;
-// }
+.social-network{
+    padding-top: 64px;
+    
+}
 .social-network__list{
     display: flex;
     align-items: center;
-    margin-top: 64px;
+    
 
 }
 
